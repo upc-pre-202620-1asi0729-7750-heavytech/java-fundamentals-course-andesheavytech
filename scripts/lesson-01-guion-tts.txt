@@ -1,0 +1,41 @@
+[00:00]
+¿Alguna vez te has preguntado cómo funciona tu juego favorito, o cómo sabe tu celular qué hacer cuando tocas un botón? Detrás de todo eso hay personas que escriben instrucciones. En este curso vas a aprender a escribirlas tú también, usando un lenguaje llamado Java. Y lo mejor: no necesitas instalar nada. Solo tu navegador.
+
+[00:25]
+Al final de este curso habrás creado tu propio juego de adivinanzas, con un personaje, puntajes y varias partidas. Lo construiremos paso a paso, en lecciones cortas, y en cada una tendrás una práctica lista para abrir con un solo clic.
+
+[00:45]
+Empecemos por lo básico. Programar es darle instrucciones a una computadora, una por una, en un orden preciso. La computadora es muy rápida, pero no adivina lo que queremos. Si la instrucción está incompleta, no sabrá qué hacer. Es parecido a explicarle una receta a alguien que nunca ha cocinado: cada paso tiene que ser claro.
+
+[01:15]
+Para escribir esas instrucciones usamos un lenguaje de programación. Hay muchos, y Java es uno de los más usados en el mundo. Con Java se crean aplicaciones para celulares Android, sistemas de bancos, servidores de videojuegos y hasta partes de Minecraft. Además, su forma de escribir es ordenada, así que es un gran lenguaje para empezar.
+
+[01:45]
+Vamos a trabajar en OnlineGDB, un editor que funciona dentro del navegador. Abre el enlace de la práctica uno que está en la descripción del video. A la izquierda verás el código. Arriba está el botón Run, que significa ejecutar. Y abajo aparece la consola, donde el programa muestra sus resultados.
+
+[02:15]
+Presiona Run. En la consola aparece: ¡Hola, mundo! Acabas de ejecutar tu primer programa en Java. Ahora veamos qué hace cada parte.
+
+[02:30]
+La línea public class Main crea una clase llamada Main. Por ahora piensa en la clase como la caja que contiene nuestro programa. Más adelante en el curso descubrirás que las clases son mucho más poderosas. Dentro está public static void main. Ese es el punto de partida: Java siempre empieza a ejecutar desde aquí.
+
+[03:00]
+Y dentro de main está la instrucción que nos importa: System punto out punto println. Esta instrucción muestra en la consola el texto que pongamos entre los paréntesis. El texto va entre comillas dobles. Al final hay un punto y coma, que en Java indica que la instrucción terminó. Es como el punto final de una oración.
+
+[03:30]
+Fíjate también en las llaves. Cada llave que se abre tiene que cerrarse. Las líneas que empiezan con dos barras son comentarios. Java las ignora. Sirven para dejar notas a las personas que leen el código.
+
+[03:50]
+Ahora es tu turno. Pausa el video y resuelve los dos TODO del código. Primero, escribe una línea que muestre tu apodo de jugador. Puede ser inventado. Segundo, escribe otra línea que diga qué te gustaría crear con programación. Copia la línea del hola mundo y cambia solo el texto entre comillas. Luego presiona Run.
+
+[04:15]
+¿Listo? Así quedaría una posible solución. Mi apodo de jugador es PixelNova. Y me gustaría crear un videojuego de aventuras. Si te salió un error, revisa tres cosas: las comillas, los paréntesis y el punto y coma. Casi siempre el problema está ahí.
+
+[04:40]
+Un dato extra. Si usas print en lugar de println, el texto se muestra sin saltar a la siguiente línea. Prueba ambas y compara.
+
+[04:55]
+Repasemos. Programar es dar instrucciones precisas. Java empieza en el método main. System punto out punto println muestra texto en la consola. Y cada instrucción termina con punto y coma.
+
+[05:15]
+En la siguiente lección le daremos memoria a nuestro programa con variables, y crearemos los datos de nuestro primer personaje. ¡Nos vemos ahí!

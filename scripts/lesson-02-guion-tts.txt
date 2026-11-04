@@ -1,0 +1,47 @@
+[00:00]
+En todos los videojuegos tu personaje tiene datos: un nombre, un nivel, una barra de energía, monedas. El juego necesita recordarlos todo el tiempo. Hoy aprenderás cómo un programa guarda información usando variables.
+
+[00:20]
+Abre la práctica dos desde la descripción. Una variable es como una caja con una etiqueta. La etiqueta es el nombre de la variable y dentro guardamos un valor. Pero en Java cada caja tiene un tipo, que indica qué clase de dato puede guardar.
+
+[00:45]
+Mira la primera línea: String nombre igual a PixelNova, entre comillas. String es el tipo para textos. Nombre es la etiqueta. Y el signo igual no significa igual como en matemáticas: significa guardar. Estamos guardando el texto PixelNova en la variable nombre.
+
+[01:15]
+La siguiente es int nivel igual a uno. Int sirve para números enteros, sin decimales. Luego double energía igual a setenta y cinco punto cinco. Double guarda números con decimales. Ojo: en Java los decimales se escriben con punto, no con coma.
+
+[01:45]
+Y finalmente boolean tieneEscudo igual a false. Un boolean solo puede tener dos valores: true, que significa verdadero, o false, que significa falso. Es perfecto para preguntas de sí o no.
+
+[02:05]
+Presiona Run. La consola muestra Personaje: PixelNova y Nivel: uno. ¿Cómo se juntó el texto con el número? Con el signo más. Cuando usamos más entre un texto y otro valor, Java los une en un solo texto. A esto se le llama concatenar.
+
+[02:30]
+Un consejo sobre los nombres. Usamos nombres que expliquen lo que guardan, como nivel o energía, y no letras sueltas como x. Cuando el nombre tiene dos palabras, como tiene escudo, las juntamos y escribimos la segunda con mayúscula. A eso se le llama camel case, porque parece las jorobas de un camello.
+
+[03:00]
+Ahora resuelve el primer TODO: muestra la energía y si tiene escudo, igual que las líneas de arriba. Pausa el video si lo necesitas.
+
+[03:15]
+Quedaría así: System punto out punto println, entre comillas Energía dos puntos, más energía. Y lo mismo para tiene escudo. Al ejecutar verás setenta y cinco punto cinco y false.
+
+[03:35]
+Segundo TODO: crea una variable int llamada monedas con el valor diez y muéstrala. Escribimos int monedas igual a diez, punto y coma. Y luego la mostramos con println.
+
+[03:55]
+El tercer TODO es muy importante. Queremos subir de nivel. ¿Hay que crear otra variable? No. Escribimos solo nivel igual a dos, sin la palabra int. El tipo se escribe una sola vez, cuando creamos la variable. Después podemos cambiar su valor cuantas veces queramos, pero no su tipo. Si intentas guardar un texto en una variable int, Java te mostrará un error.
+
+[04:30]
+Pausa el video y completa los tres TODO. Luego ejecuta el programa.
+
+[04:40]
+Un tipo extra: char, que guarda un solo carácter, como la letra P. Se escribe entre comillas simples. Comillas dobles para String, comillas simples para char.
+
+[05:00]
+Mini reto: crea una variable double llamada velocidad y otra boolean llamada esJefeFinal. Muéstralas en la consola.
+
+[05:15]
+Pregunta rápida: ¿qué tipo usarías para guardar la edad de una persona? Piénsalo. La respuesta es int, porque es un número entero.
+
+[05:30]
+Repasemos. Una variable guarda un valor y tiene un tipo. String para textos, int para enteros, double para decimales y boolean para verdadero o falso. En la próxima lección haremos cálculos y le pediremos datos al usuario. ¡Hasta pronto!
