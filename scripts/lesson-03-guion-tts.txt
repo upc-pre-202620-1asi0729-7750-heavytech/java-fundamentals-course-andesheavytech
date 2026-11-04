@@ -1,0 +1,47 @@
+[00:00]
+Hasta ahora nuestros programas siempre muestran lo mismo. Hoy los volveremos interactivos: el programa te hará preguntas, leerá tus respuestas y hará cálculos con ellas.
+
+[00:15]
+Abre la práctica tres. En la primera línea hay algo nuevo: import java punto util punto Scanner. Scanner es una herramienta que ya viene con Java y sirve para leer lo que escribimos con el teclado. Import le dice a Java que vamos a usarla.
+
+[00:40]
+Dentro de main creamos el lector: Scanner teclado igual a new Scanner, y entre paréntesis System punto in. System punto in representa el teclado. Ahora la variable teclado puede leer datos.
+
+[01:00]
+Para leer un texto completo usamos teclado punto nextLine. Para leer un número entero usamos teclado punto nextInt. Fíjate que primero mostramos una pregunta con print, y después leemos la respuesta.
+
+[01:20]
+Presiona Run. El programa pregunta el nombre del personaje. Haz clic en la consola, escribe PixelNova y presiona Enter. Luego escribe quince monedas para el nivel uno, y diez para el nivel dos. El programa responde: PixelNova tiene veinticinco monedas en total.
+
+[01:50]
+Esa suma la hizo el operador más. Java tiene los operadores de siempre: más para sumar, menos para restar, asterisco para multiplicar y barra para dividir. Y uno nuevo: el signo de porcentaje, que en programación no es porcentaje. Se llama resto, o módulo, y da lo que sobra de una división.
+
+[02:20]
+Vamos con el primer TODO. Cada poción cuesta siete monedas. ¿Cuántas podemos comprar con veinticinco? Creamos int precioPoción igual a siete, y luego int pociones igual a total dividido entre precioPoción. El resultado es tres, no tres punto cinco. Cuando divides dos números enteros, Java descarta los decimales. Se llama división entera, y es justo lo que necesitamos aquí, porque no se puede comprar media poción.
+
+[03:00]
+Segundo TODO: ¿cuántas monedas sobran? Usamos el resto: total porcentaje precioPoción. Tres pociones son veintiuna monedas, y de veinticinco sobran cuatro. Ese es el resultado.
+
+[03:25]
+Tercer TODO: un bonus de cinco monedas. Podríamos escribir total igual a total más cinco. Pero hay una forma corta: total más igual cinco. Significa suma cinco y guarda el resultado en la misma variable. También existen menos igual, por igual y dividido igual.
+
+[03:55]
+Pausa el video y completa los tres TODO. Prueba con números diferentes para ver cómo cambian los resultados.
+
+[04:10]
+¿Y si sí quiero decimales? Por ejemplo, el promedio de monedas por nivel. Basta con que uno de los números sea decimal. Por eso dividimos entre dos punto cero, y no entre dos. Así Java hace una división con decimales.
+
+[04:35]
+Un detalle de orden: igual que en matemáticas, la multiplicación y la división se hacen antes que la suma y la resta. Si quieres cambiar el orden, usa paréntesis.
+
+[04:55]
+Al final cerramos el lector con teclado punto close. Es una buena costumbre cerrar lo que abrimos.
+
+[05:10]
+Mini reto: pregunta la edad del usuario y muestra cuántos años le faltan para cumplir dieciocho.
+
+[05:25]
+Pregunta rápida: ¿cuánto es diecisiete porcentaje cinco? Piénsalo. Diecisiete entre cinco da tres, y sobran dos. La respuesta es dos.
+
+[05:40]
+Repasemos. Scanner lee datos del teclado. Los operadores hacen cálculos. Dividir enteros descarta los decimales, y el resto da lo que sobra. En la próxima lección el programa tomará decisiones por sí solo. ¡Nos vemos!

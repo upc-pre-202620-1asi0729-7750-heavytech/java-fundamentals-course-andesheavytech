@@ -1,0 +1,50 @@
+[00:00]
+Cuando terminas una partida, el juego decide si ganaste una medalla de oro, de plata, o si debes intentarlo otra vez. Los programas toman decisiones todo el tiempo. Hoy aprenderás a hacerlo con if y else.
+
+[00:20]
+Abre la práctica cuatro. If significa si. Else significa si no. La estructura se lee casi como una frase: si los puntos son mayores o iguales a cien, muestra medalla de oro. Si no, muestra sigue practicando.
+
+[00:45]
+Entre los paréntesis del if va una condición, una pregunta que solo puede responderse con verdadero o falso. Si es verdadera, se ejecuta el bloque entre las primeras llaves. Si es falsa, se ejecuta el bloque del else.
+
+[01:05]
+Para escribir condiciones usamos operadores de comparación. Mayor que, menor que, mayor o igual, menor o igual. Para preguntar si dos valores son iguales usamos dos signos igual seguidos. Y para distinto, un signo de exclamación y un igual.
+
+[01:30]
+Cuidado aquí, porque es un error muy común: un solo igual guarda un valor, dos iguales comparan. En el if casi siempre necesitas dos.
+
+[01:45]
+Ejecuta el programa y escribe ciento veinte. Aparece medalla de oro. Ejecútalo de nuevo y escribe treinta: sigue practicando. ¿Y si escribes setenta? También dice sigue practicando, pero setenta merece algo mejor. Ese es el primer TODO.
+
+[02:10]
+Entre el if y el else agregamos un else if, que significa si no, si. Escribimos else if, y entre paréntesis, puntos mayor o igual a cincuenta. Dentro mostramos medalla de plata.
+
+[02:30]
+Las condiciones se revisan de arriba hacia abajo, y solo se ejecuta la primera que sea verdadera. Si escribes ciento veinte, la primera ya se cumple, así que Java no revisa las demás. Por eso el orden importa: siempre de la condición más exigente a la menos exigente.
+
+[02:55]
+Ahora el segundo TODO. Hay un nivel secreto, pero solo se desbloquea si te quedan vidas y además tienes más de cien puntos. Necesitamos que se cumplan dos condiciones a la vez. Para eso está el operador y, que se escribe con dos signos et, así: et et.
+
+[03:20]
+Primero preguntamos cuántas vidas quedan y las leemos con nextInt. Luego escribimos: if, abre paréntesis, vidas mayor que cero, et et, puntos mayor que cien. Si ambas son verdaderas, mostramos desbloqueaste el nivel secreto.
+
+[03:45]
+También existe el operador o, que se escribe con dos barras verticales. Con o basta con que una de las condiciones sea verdadera. Y el signo de exclamación invierte una condición: convierte verdadero en falso.
+
+[04:05]
+Pausa el video y completa los dos TODO. Prueba varias combinaciones: muchos puntos y cero vidas, pocos puntos y muchas vidas. Comprueba que cada caso muestre el mensaje correcto.
+
+[04:20]
+En la solución agregamos un caso más: si las vidas son cero, mostramos game over. Así cubrimos todas las situaciones.
+
+[04:35]
+Un consejo de buenas prácticas: usa siempre llaves en tus if, aunque el bloque tenga una sola línea. Y mantén el código ordenado con sangría, para ver de un vistazo qué está dentro de qué.
+
+[04:50]
+Mini reto: pide una edad y muestra si la persona es niño, adolescente o adulto, usando if, else if y else.
+
+[05:05]
+Pregunta rápida: si puntos vale cincuenta, ¿es verdadera la condición puntos mayor que cincuenta? Piénsalo. Es falsa, porque cincuenta no es mayor que cincuenta. Para incluirlo necesitas mayor o igual.
+
+[05:20]
+Repasemos. If ejecuta código si una condición es verdadera. Else if agrega más casos y else cubre el resto. Et et significa y, dos barras significa o. En la próxima lección haremos que el programa repita acciones con bucles. ¡Hasta la próxima!
