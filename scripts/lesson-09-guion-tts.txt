@@ -1,0 +1,62 @@
+[00:00]
+¡Llegó el momento! Hoy vas a construir un juego completo usando todo lo que aprendiste: variables, decisiones, bucles, métodos, clases y objetos. El programa pensará un número secreto del uno al cincuenta, y tú tendrás siete intentos para adivinarlo.
+
+[00:20]
+Antes de mirar el código, juguemos una partida. Abro la solución, presiono Run y escribo mi nombre. Pruebo con veinticinco: es más alto. Pruebo con treinta y siete: es más bajo. Treinta y uno: es más alto. Treinta y cuatro: ¡correcto! Al final, el juego me pregunta si quiero jugar otra vez.
+
+[00:45]
+Ahora abre la práctica nueve. Cuando un programa crece, conviene dividirlo en clases, cada una con una responsabilidad. Aquí tenemos dos: Jugador, que recuerda quién juega y cuántas partidas ganó, y JuegoAdivinanza, que se encarga de una partida.
+
+[01:05]
+Mira la clase Jugador. Tiene atributos privados, un constructor, dos getters y un método sumarVictoria. Ya sabes leer todo esto. No hay un setter para las partidas ganadas, porque no queremos que nadie las cambie a mano. Solo pueden subir de una en una, ganando.
+
+[01:30]
+Ahora JuegoAdivinanza. En el constructor aparece algo nuevo: Random, otra herramienta de Java, que genera números al azar. azar punto nextInt de cincuenta da un número del cero al cuarenta y nueve. Por eso le sumamos uno: así va del uno al cincuenta.
+
+[01:55]
+El método jugar recibe el Scanner y tiene un for, que da una vuelta por cada intento. En cada vuelta pide un número. Aquí van los dos primeros TODO.
+
+[02:10]
+Primer TODO: si el número es igual al número secreto, felicitamos al jugador. Escribimos if, número igual igual númeroSecreto. Recuerda: dos signos igual para comparar. Dentro mostramos correcto, lo adivinaste en tantos intentos. Y luego return true.
+
+[02:35]
+Fíjate en un detalle poderoso: return no solo devuelve un valor, también termina el método de inmediato. Así que si el jugador acierta en el tercer intento, el for se detiene ahí, sin esperar a los siete.
+
+[02:55]
+Segundo TODO: si no acertó, damos una pista. If, número menor que númeroSecreto, mostramos es más alto. Else, mostramos es más bajo. Esa pista es lo que hace el juego divertido.
+
+[03:15]
+Si se acaban los siete intentos, el for termina y se ejecutan las líneas de abajo: mostramos el número secreto y devolvemos false, porque el jugador no ganó.
+
+[03:30]
+Pausa el video y completa los dos primeros TODO.
+
+[03:40]
+Bajemos a main. Creamos un Scanner, preguntamos el nombre y creamos el jugador con new Jugador. Luego hay un while que se repite mientras la respuesta sea s. Para comparar textos usamos equals, no dos iguales. Eso lo explicaremos con detalle en la próxima lección.
+
+[04:05]
+Dentro del while se crea un juego nuevo en cada vuelta, así que cada partida tiene un número secreto distinto.
+
+[04:15]
+Tercer TODO: jugar la partida y anotar el resultado. Escribimos boolean ganó igual a juego punto jugar, y le pasamos teclado. Luego, if ganó, jugador punto sumarVictoria. Aquí los dos objetos trabajan juntos: el juego dice si ganaste, y el jugador lo recuerda.
+
+[04:40]
+Cuarto TODO: después del while, mostramos el nombre del jugador y cuántas partidas ganó, usando los getters.
+
+[04:55]
+Pausa el video y completa el programa. Luego juega varias partidas.
+
+[05:05]
+¿Tienes una buena estrategia? Prueba siempre con el número del medio. Si te dicen más alto, el número está en la mitad de arriba, y vuelves a probar en el medio de esa mitad. Así, cada intento descarta la mitad de las opciones, y con siete intentos siempre puedes ganar. Los programadores llaman a esta idea búsqueda binaria.
+
+[05:35]
+Hagamos un recorrido final. Usamos variables y tipos, Scanner para leer datos, if y else para las pistas, for y while para repetir, métodos con parámetros y return, y dos clases con atributos privados y getters. ¡Todo el curso en un solo programa!
+
+[06:00]
+Ahora hazlo tuyo. Algunas ideas: agrega niveles de dificultad que cambien el máximo y los intentos. Muestra cuántos intentos quedan. O guarda varios jugadores en un arreglo para hacer una tabla de récords.
+
+[06:20]
+Pregunta rápida: ¿qué pasa en el método jugar cuando se ejecuta return true? Piénsalo. El método termina de inmediato y devuelve true, aunque queden intentos.
+
+[06:35]
+¡Felicitaciones, acabas de programar un juego con objetos! En la última lección veremos los errores más comunes y cómo resolverlos como un profesional. ¡Te espero!

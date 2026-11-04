@@ -1,0 +1,20 @@
+# Compilación de Java
+*.class
+out/
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Editores
+.idea/
+.vscode/
+*.swp
+
+# Material audiovisual local (los videos van a YouTube, no al repositorio)
+audio/
+recordings/
+video-exports/
+*.mp4
+*.mov
+*.wav

@@ -1,0 +1,41 @@
+[00:00]
+Te voy a contar un secreto: todos los programadores cometen errores. Todos, todos los días. La diferencia es que los programadores con experiencia saben leer los mensajes de error y encontrar el problema rápido. Hoy aprenderás a hacerlo tú.
+
+[00:20]
+Abre la práctica diez. Este programa tiene cinco errores puestos a propósito. Hay tres tipos de errores. Los de compilación, cuando Java no entiende lo que escribiste y no puede ejecutar el programa. Los de ejecución, cuando el programa arranca pero se detiene a mitad de camino. Y los de lógica, cuando el programa funciona pero da un resultado incorrecto. Esos son los más difíciles, porque no aparece ningún mensaje.
+
+[00:55]
+Presiona Run. La consola muestra un error: punto y coma esperado, en la línea ocho. El mensaje nos dice qué falta y dónde. Vamos a la línea ocho y efectivamente, al println le falta el punto y coma al final. Lo agregamos.
+
+[01:20]
+Ejecutamos otra vez. Nuevo error: no se puede encontrar el símbolo string. Java distingue entre mayúsculas y minúsculas. String, el tipo para textos, se escribe con S mayúscula. Para Java, string con minúscula es una palabra desconocida. Corregimos.
+
+[01:45]
+Consejo: cuando aparecen varios errores, corrige siempre el primero y vuelve a ejecutar. A veces un solo error provoca varios mensajes.
+
+[02:00]
+Ejecutamos de nuevo. ¡Ahora sí arranca! Muestra los tres puntajes, pero luego se detiene con un mensaje largo: ArrayIndexOutOfBoundsException, índice tres fuera de los límites. Es un error de ejecución. El arreglo tiene tres elementos, con índices cero, uno y dos. Pero el for usa menor o igual, así que intenta llegar al índice tres, que no existe. La solución es usar menor que, sin el igual.
+
+[02:40]
+Ahora el programa termina sin errores. ¿Ya está todo bien? Revisemos los resultados con atención. El promedio aparece como sesenta y ocho punto cero. Pero cuarenta más setenta y cinco más noventa es doscientos cinco, y dividido entre tres da sesenta y ocho punto treinta y tres. Es un error de lógica.
+
+[03:05]
+Ya lo vimos en la lección tres: total y tres son enteros, así que Java hace una división entera y descarta los decimales, aunque luego lo guarde en un double. La solución es dividir entre tres punto cero.
+
+[03:25]
+Y el último error: el mensaje clave correcta no aparece, aunque la clave es java. Pasa porque los textos no se comparan con dos signos igual. Dos iguales revisa si son exactamente el mismo objeto, no si tienen las mismas letras. Para comparar el contenido de dos textos siempre se usa equals: clave punto equals java.
+
+[03:55]
+Pausa el video, corrige los cinco errores tú mismo y luego compara con la solución.
+
+[04:05]
+Antes de despedirnos, cinco buenas prácticas para todo lo que programes. Uno: usa nombres claros para tus variables y métodos. Dos: mantén el código ordenado con sangría. Tres: escribe poco y ejecuta seguido, así sabrás exactamente qué parte falló. Cuatro: lee el mensaje de error completo, especialmente el número de línea. Y cinco: cuando te trabes, explícale tu código en voz alta a alguien, o incluso a un muñeco. Funciona más de lo que crees.
+
+[04:40]
+¿Y ahora qué sigue? Puedes mejorar tu juego de adivinanzas, crear un registro de estudiantes con clases, o practicar con ejercicios en sitios gratuitos. Todo el código del curso está en el repositorio de GitHub, enlazado en la descripción.
+
+[05:00]
+Mira todo lo que lograste. Empezaste con un hola mundo, y ahora sabes usar variables, operadores, decisiones, bucles, métodos, clases, objetos, encapsulación y arreglos. Esa es la base de Java, y de muchos otros lenguajes.
+
+[05:20]
+Al final de la descripción hay un cuestionario corto para que compruebes lo que aprendiste. ¡Gracias por acompañarnos en este curso, y sigue programando!
