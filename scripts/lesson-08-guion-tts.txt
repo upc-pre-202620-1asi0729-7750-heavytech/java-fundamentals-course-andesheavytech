@@ -1,0 +1,56 @@
+[00:00]
+En la lección anterior vimos un problema: cualquiera podía cambiar la energía de una mascota a menos quinientos. Hoy vamos a proteger los datos de nuestros objetos con encapsulación. Y además aprenderás a guardar varios objetos juntos en un arreglo.
+
+[00:20]
+Piensa en un cajero automático. Tú no abres la caja fuerte para sacar dinero. Usas la pantalla, y el cajero revisa que tengas saldo antes de entregártelo. La caja fuerte está protegida, y solo se accede por una puerta controlada. Eso es encapsulación.
+
+[00:45]
+Abre la práctica ocho. Los atributos ahora tienen la palabra private. Private significa que solo el código dentro de la clase puede verlos o cambiarlos. Si desde main intentas escribir toby punto energía, Java mostrará un error.
+
+[01:05]
+Entonces, ¿cómo leemos el nombre desde afuera? Con un getter, un método público que devuelve el valor. Por convención se llama get más el nombre del atributo: getNombre. Public significa que se puede usar desde cualquier parte.
+
+[01:25]
+Primer TODO: crear getEnergía. Copia la forma de getNombre, pero devuelve un int: public int getEnergía, y dentro return energía.
+
+[01:45]
+Para cambiar un valor usamos un setter, que se llama set más el nombre del atributo. Y aquí está la magia: el setter puede revisar el valor antes de aceptarlo. Ahora mismo setEnergía acepta cualquier cosa. Ese es el segundo TODO.
+
+[02:05]
+Dentro del setter escribimos: if, energía mayor o igual a cero, et et, energía menor o igual a cien. Si se cumple, guardamos el valor con this punto energía igual a energía. Si no, en el else mostramos un aviso de valor no válido, y no cambiamos nada.
+
+[02:30]
+Ejecuta el programa. Primero ponemos ochenta, que es válido. Luego intentamos poner quinientos, y aparece el aviso. La energía de Toby sigue en ochenta. La clase protege sus propios datos, sin importar quién la use.
+
+[02:55]
+Pausa el video y completa los dos primeros TODO.
+
+[03:05]
+Ahora la segunda parte: los arreglos. Si tienes tres mascotas, podrías crear tres variables. ¿Pero y si tienes cien? Para eso existe el arreglo, una fila de casilleros numerados donde cada casillero guarda un valor del mismo tipo.
+
+[03:25]
+Mascota, corchetes, equipo igual a new Mascota, corchete tres corchete. Así creamos un arreglo de tres casilleros. Y aquí un detalle muy importante: los casilleros se numeran desde cero. El primero es el cero, el segundo el uno y el tercero el dos. Esa posición se llama índice.
+
+[03:55]
+Luego llenamos cada casillero: equipo, corchete cero, igual a toby. Equipo, corchete uno, igual a new Mascota Michi. Y así con Rocky.
+
+[04:10]
+Tercer TODO: recorrer el arreglo con un for. Los arreglos y los for se llevan muy bien. Escribimos for, int i igual a cero, i menor que equipo punto length, i más más. Length nos dice cuántos casilleros tiene el arreglo, en este caso tres. Así el for pasa por cero, uno y dos.
+
+[04:40]
+Dentro obtenemos el nombre con equipo, corchete i, punto getNombre. Y aquí aprovechamos que los textos también son objetos, con sus propios métodos. toUpperCase devuelve el texto en mayúsculas. Y length, con paréntesis, devuelve cuántas letras tiene.
+
+[05:05]
+Pausa el video y completa el tercer TODO.
+
+[05:15]
+Al ejecutar verás TOBY tiene cuatro letras, MICHI tiene cinco, ROCKY tiene cinco. Fíjate que en los arreglos length va sin paréntesis, y en los textos va con paréntesis. Es un detalle que confunde a todos al principio.
+
+[05:35]
+Mini reto: agrega una cuarta mascota. Recuerda que el arreglo tiene tamaño fijo, así que tendrás que cambiar el tres por cuatro.
+
+[05:50]
+Pregunta rápida: en un arreglo de cinco elementos, ¿cuál es el índice del último? Piénsalo. Es cuatro, porque empezamos a contar desde cero.
+
+[06:05]
+Repasemos. Private protege los atributos. Los getters leen y los setters cambian con reglas. Un arreglo guarda varios valores y sus índices empiezan en cero. En la próxima lección juntamos todo en nuestro proyecto final: ¡un juego! Nos vemos ahí.

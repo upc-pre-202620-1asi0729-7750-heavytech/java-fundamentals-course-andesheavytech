@@ -1,0 +1,59 @@
+[00:00]
+Llegamos a la idea más importante de Java: la programación orientada a objetos. Suena complicado, pero la usas todos los días sin darte cuenta. Mira a tu alrededor: tu celular, tu mascota, tu mochila. Todos son objetos. Tienen características y pueden hacer cosas.
+
+[00:25]
+Piensa en una mascota. Tiene características: un nombre, una especie, un nivel de energía. Y tiene comportamientos: jugar, comer, dormir. En programación, las características se llaman atributos, y los comportamientos se llaman métodos.
+
+[00:45]
+Ahora, ¿cuál es la diferencia entre una clase y un objeto? Piensa en un molde para galletas. El molde es la clase: define la forma. Cada galleta que haces con el molde es un objeto. Todas tienen la misma forma, pero cada una puede tener distinto sabor o decoración.
+
+[01:10]
+Abre la práctica siete. Arriba está la clase Mascota. Primero sus atributos: String nombre, String especie e int energía. Son variables, pero viven dentro de la clase. Cada mascota tendrá las suyas.
+
+[01:30]
+Después viene el constructor. Es un método especial que tiene el mismo nombre que la clase y no lleva tipo de retorno. Se ejecuta automáticamente cuando creamos un objeto. Aquí recibe el nombre y la especie, y además pone la energía en cincuenta.
+
+[01:55]
+¿Y qué es this? This significa este objeto. Cuando escribimos this punto nombre igual a nombre, estamos diciendo: guarda el nombre que recibí en el atributo nombre de esta mascota. Lo usamos porque el parámetro y el atributo se llaman igual.
+
+[02:20]
+Luego están los métodos. Jugar resta veinte de energía y muestra un mensaje. MostrarEstado muestra los datos de la mascota. Fíjate que estos métodos no llevan static: pertenecen a cada objeto.
+
+[02:40]
+Ahora bajemos a main. Mascota miMascota igual a new Mascota, abre paréntesis, Toby, coma, perro. La palabra new crea un objeto nuevo usando el molde. Desde ese momento, miMascota es un perro llamado Toby con cincuenta de energía.
+
+[03:05]
+Para usar un método del objeto escribimos el nombre del objeto, un punto y el método: miMascota punto jugar. Presiona Run. Toby tiene cincuenta de energía, juega, y ahora tiene treinta.
+
+[03:25]
+Primer TODO: crear el método comer. Copia la forma de jugar: void comer, paréntesis, llaves. Dentro, energía más igual treinta, y un mensaje que diga que comió.
+
+[03:45]
+Segundo TODO: en main, haz que Toby coma y muestra su estado otra vez. Su energía sube a sesenta.
+
+[04:00]
+Y el tercer TODO, el más interesante. Crea una segunda mascota: Mascota otraMascota igual a new Mascota, Michi, gato. Haz que Michi juegue dos veces y muestra el estado de las dos mascotas.
+
+[04:20]
+Pausa el video y completa los tres TODO.
+
+[04:30]
+¿Qué pasó? Michi tiene diez de energía, porque jugó dos veces. Pero Toby sigue con sesenta. Cada objeto tiene sus propios atributos. Cambiar uno no afecta al otro, aunque los dos salieron del mismo molde. Esa es la idea central de los objetos.
+
+[04:55]
+Esto es lo que hace tan útil a la programación orientada a objetos. En un juego real podrías tener una clase Enemigo y crear cien enemigos, cada uno con su propia vida y posición, escribiendo la clase una sola vez.
+
+[05:15]
+Un detalle de buenas prácticas: los nombres de las clases empiezan con mayúscula, como Mascota. Los objetos y las variables empiezan con minúscula, como miMascota. Así se distinguen fácilmente.
+
+[05:35]
+Mini reto: agrega a la clase un método dormir, que ponga la energía en cien. Y crea una tercera mascota de la especie que quieras.
+
+[05:50]
+Pregunta rápida: si la clase es el molde, ¿qué es el objeto? Piénsalo. El objeto es la galleta: algo concreto creado a partir del molde.
+
+[06:05]
+Pero hay un problema escondido. En este código, cualquiera podría escribir miMascota punto energía igual a menos quinientos. Una mascota con energía negativa no tiene sentido. ¿Cómo protegemos los datos? Eso lo veremos en la próxima lección, con la encapsulación.
+
+[06:30]
+Repasemos. Una clase es un molde con atributos y métodos. Un objeto se crea con new. El constructor da los valores iniciales. Y cada objeto guarda sus propios datos. ¡Nos vemos en la siguiente!
