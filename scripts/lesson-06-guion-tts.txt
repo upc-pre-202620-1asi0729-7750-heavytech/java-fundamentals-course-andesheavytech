@@ -1,0 +1,47 @@
+[00:00]
+En un juego, saltar es una acción que usas cientos de veces. Los programadores no escriben el código del salto cada vez: lo escriben una sola vez, le ponen un nombre y lo reutilizan. Eso es un método, y es lo que aprenderás hoy.
+
+[00:20]
+Abre la práctica seis. Ya conoces un método: main. Ahora vamos a crear los nuestros. Mira mostrarTítulo. Empieza con static void. Void significa vacío: este método hace algo, pero no devuelve ningún resultado. Luego el nombre, paréntesis vacíos y las llaves con el código.
+
+[00:45]
+Definir un método no lo ejecuta. Para ejecutarlo hay que llamarlo, escribiendo su nombre con paréntesis, como hacemos dentro de main. Ejecuta el programa y verás el título.
+
+[01:00]
+El siguiente método es saludar, y entre paréntesis tiene String nombre. Eso es un parámetro: un dato que el método recibe para trabajar. En main lo llamamos dos veces, con PixelNova y con LunaByte. El mismo código saluda a dos jugadores distintos.
+
+[01:25]
+Ahora el primer TODO. Queremos un método que calcule el puntaje: cada moneda vale diez puntos y cada enemigo derrotado vale cincuenta. Este método no solo hace algo: nos devuelve un resultado. Por eso en lugar de void escribimos el tipo del resultado, int.
+
+[01:50]
+Escribimos static int calcularPuntaje, y entre paréntesis dos parámetros separados por coma: int monedas, coma, int enemigos. Dentro escribimos return, monedas por diez, más enemigos por cincuenta. Return significa devolver: entrega el resultado a quien llamó al método.
+
+[02:20]
+Segundo TODO: un método mostrarBarra, que reciba la energía y dibuje un numeral por cada diez puntos. Aquí combinamos lo que ya sabes. Es un método void, con un parámetro int energía. Dentro, un for que se repite energía dividido entre diez veces, y en cada vuelta muestra un numeral con print. Al final, println con el porcentaje.
+
+[02:55]
+Ahora vamos a main. Tercer TODO: llamar a calcularPuntaje con doce monedas y tres enemigos. Como el método devuelve un valor, lo guardamos en una variable: int puntaje igual a calcularPuntaje, abre paréntesis, doce, coma, tres. Luego lo mostramos. El resultado es doscientos setenta.
+
+[03:20]
+Cuarto TODO: llamar a mostrarBarra con setenta y con treinta. Verás una barra de siete numerales y otra de tres.
+
+[03:35]
+Pausa el video y completa los cuatro TODO. Si te sale un error, revisa que los métodos estén fuera de main, pero dentro de la clase.
+
+[03:50]
+¿Por qué usar métodos? Primero, para no repetir código. Segundo, para que el programa sea más fácil de leer: un nombre como calcularPuntaje explica qué hace. Y tercero, si hay un error, solo lo corriges en un lugar.
+
+[04:15]
+Un consejo: dale a tus métodos nombres que empiecen con un verbo, como calcular, mostrar o saludar. Y que cada método haga una sola tarea.
+
+[04:30]
+¿Te diste cuenta de que la palabra static aparece en todos los métodos? Por ahora la usamos porque los llamamos directamente desde main. En la próxima lección verás métodos sin static, que pertenecen a objetos.
+
+[04:50]
+Mini reto: crea un método esMayorDeEdad que reciba una edad y devuelva un boolean.
+
+[05:05]
+Pregunta rápida: ¿qué palabra usas cuando un método no devuelve nada? Piénsalo. La respuesta es void.
+
+[05:20]
+Repasemos. Un método es un bloque de código con nombre. Los parámetros le dan datos. Return devuelve un resultado. Y void indica que no devuelve nada. En la próxima lección entramos al corazón de Java: las clases y los objetos. ¡No te la pierdas!

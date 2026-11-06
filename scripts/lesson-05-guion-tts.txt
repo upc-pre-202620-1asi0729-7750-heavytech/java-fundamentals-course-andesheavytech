@@ -1,0 +1,47 @@
+[00:00]
+Imagina que tienes que escribir cien veces la misma línea. Sería aburrido y fácil equivocarse. Para eso existen los bucles: le dicen al programa que repita algo, sin que tengamos que escribirlo una y otra vez.
+
+[00:20]
+Abre la práctica cinco y presiona Run. Aparece una cuenta regresiva: tres, dos, uno, ¡comienza la partida! Eso lo hizo un bucle for.
+
+[00:35]
+El for tiene tres partes entre paréntesis, separadas por punto y coma. La primera es el inicio: int i igual a tres. Creamos un contador que empieza en tres. La segunda es la condición: i mayor o igual a uno. Mientras sea verdadera, el bucle sigue. La tercera es el cambio: i menos menos, que resta uno al contador en cada vuelta.
+
+[01:05]
+Sigamos el bucle paso a paso. i vale tres: la condición se cumple, mostramos tres. Restamos uno, i vale dos: mostramos dos. Luego uno. Luego i vale cero, la condición ya es falsa y el bucle termina. Recién entonces Java sigue con la siguiente línea.
+
+[01:30]
+Primer TODO: mostrar Ronda uno hasta Ronda cinco. Esta vez contamos hacia arriba. Escribimos for, int ronda igual a uno, ronda menor o igual a cinco, ronda más más. Más más suma uno. Dentro mostramos Ronda, más ronda.
+
+[01:55]
+Pausa y pruébalo. Luego cambia el cinco por diez. Fíjate en el poder de los bucles: cambiando un solo número, el programa hace el doble de trabajo.
+
+[02:10]
+El for es ideal cuando sabemos cuántas veces repetir. Pero a veces no lo sabemos. Por ejemplo: queremos recolectar monedas hasta tener cien. ¿Cuántas vueltas son? Depende de cuántas monedas ganamos cada vez. Para eso está while, que significa mientras.
+
+[02:35]
+Segundo TODO. Ya tenemos int monedas igual a cero. Escribimos while, y entre paréntesis, monedas menor que cien. Dentro sumamos quince con monedas más igual quince, y mostramos el total. Al terminar el bucle mostramos ya puedes comprar la espada.
+
+[03:00]
+Ejecuta. Verás quince, treinta, cuarenta y cinco, hasta ciento cinco. ¿Por qué ciento cinco y no cien? Porque cuando teníamos noventa la condición todavía era verdadera, así que sumamos una vez más. Con ciento cinco ya no es menor que cien, y el bucle se detiene.
+
+[03:25]
+Cuidado con un error clásico: el bucle infinito. Si olvidas la línea que suma monedas, monedas siempre vale cero, la condición nunca se vuelve falsa y el programa no termina jamás. Si te pasa, presiona el botón Stop en el editor y revisa que algo dentro del bucle cambie la condición.
+
+[03:55]
+Pausa el video y completa los dos TODO.
+
+[04:05]
+Un extra divertido: podemos poner un bucle dentro de otro. En la solución, el bucle de afuera recorre las filas, y el de adentro dibuja estrellas. La primera fila tiene una estrella, la segunda dos, la tercera tres. Así se dibuja un triángulo. Prueba cambiando el tres por cinco.
+
+[04:35]
+¿Cuándo usar cada uno? For cuando sabes cuántas veces repetir: cinco rondas, diez preguntas. While cuando repites hasta que algo pase: hasta llegar a cien monedas, hasta que el jugador acierte.
+
+[04:55]
+Mini reto: muestra la tabla de multiplicar del siete, desde siete por uno hasta siete por diez.
+
+[05:10]
+Pregunta rápida: ¿cuántas veces se repite un for que empieza en uno y continúa mientras i sea menor que cuatro? Piénsalo. Se repite tres veces: uno, dos y tres.
+
+[05:30]
+Repasemos. For repite un número conocido de veces. While repite mientras se cumpla una condición. Y siempre algo dentro del bucle debe cambiar para que termine. En la próxima lección organizaremos el código en métodos. ¡Nos vemos!
