@@ -8,6 +8,7 @@ Thumbs.db
 
 # Editores
 .idea/
+*.iml
 .vscode/
 *.swp
 

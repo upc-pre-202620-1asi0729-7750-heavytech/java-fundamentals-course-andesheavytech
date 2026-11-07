@@ -1,6 +1,6 @@
 # Cuestionario final: Fundamentos de Java
 
-Preguntas para crear el formulario de Google Forms enlazado al final del curso. Una pregunta por lección, con la respuesta correcta marcada (✅) y una retroalimentación corta para mostrar después de responder.
+Diez preguntas para repasar el curso, una por lección. Intenta responder cada una antes de mirar la respuesta correcta (✅) y la explicación corta que aparece debajo.
 
 1. **¿Desde qué método empieza a ejecutarse un programa en Java?**
    - `start` · `run` · `main` ✅ · `print`
@@ -33,6 +33,4 @@ Preguntas para crear el formulario de Google Forms enlazado al final del curso. 
     - `texto1 == texto2` · `texto1 = texto2` · `texto1.equals(texto2)` ✅ · `texto1 + texto2`
     - *`equals` compara las letras; `==` compara si son el mismo objeto.*
 
-**Pregunta abierta opcional:** ¿Qué te gustaría programar ahora? (Ayuda a medir el interés del público.)
-
-> Configurar el formulario como cuestionario, sin pedir correo ni nombre real, para que funcione sin iniciar sesión y no recoja datos personales de menores de edad.
+**Para pensar:** ¿Qué te gustaría programar ahora? Elige una idea pequeña y empieza en OnlineGDB con lo que aprendiste.

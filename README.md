@@ -34,7 +34,7 @@ Curso en video de aproximadamente una hora para estudiantes de secundaria (12 a 
 java-fundamentals-course-andesheavytech/
 ├── README.md
 ├── course-plan.md              # documento principal del curso
-├── cuestionario.md             # preguntas para el formulario final
+├── cuestionario.md             # cuestionario final de repaso (10 preguntas)
 ├── starter-files/
 │   └── lesson-01 … lesson-10/Main.java   # código inicial con TODO
 ├── completed-examples/
@@ -55,7 +55,7 @@ java-fundamentals-course-andesheavytech/
 1. Entra a <https://www.onlinegdb.com/online_java_compiler> y elige el lenguaje **Java**.
 2. Pega el contenido de `starter-files/lesson-XX/Main.java`. La clase pública debe llamarse `Main`.
 3. Presiona **Run** para comprobar que compila (en la lección 10 los errores son intencionales).
-4. Presiona **Share**, copia el enlace y reemplaza `PENDIENTE_ONLINEGDB_XX` en `course-plan.md` y en la descripción del video.
+4. Presiona **Share** y pega el enlace en `course-plan.md` y en la descripción del video.
 
 Cada archivo contiene todas sus clases, así cada práctica cabe en un solo editor y se abre con un solo clic. JDoodle también funciona si OnlineGDB no está disponible.
 
