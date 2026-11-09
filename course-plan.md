@@ -4,12 +4,12 @@
 
 Este curso de aproximadamente 1 hora introduce a estudiantes de secundaria a los fundamentos de la programación con Java, incluida la programación orientada a objetos. A lo largo de 10 lecciones cortas, el estudiante acompaña a un personaje de videojuego llamado **PixelNova**, cuida una mascota virtual y termina programando su propio **juego de adivinanzas con clases**. **¡No requiere descargas!** Solo abre tu navegador web.
 
-**Duración total**: ~54 minutos (10 lecciones de 5 a 6 minutos)  
+**Duración total**: ~58 minutos (10 lecciones de 5 a 7 minutos)  
 **Público Objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación  
 **Prerrequisitos**: Ninguno  
 **Herramientas necesarias**: **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge) y el editor gratuito [OnlineGDB](https://www.onlinegdb.com/online_java_compiler)  
 **📂 Repositorio de Código Fuente**: [https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech)  
-**▶️ Lista de reproducción**: [Las 10 lecciones en YouTube](https://www.youtube.com/playlist?list=PLM38Xm7WM0wA)
+**▶️ Lista de reproducción**: [Las 10 lecciones en YouTube](https://www.youtube.com/playlist?list=PLaT5Dr0L6wqc)
 
 ### ¿Cómo funciona cada lección?
 
@@ -21,34 +21,34 @@ Este curso de aproximadamente 1 hora introduce a estudiantes de secundaria a los
 
 ## Secuencia de la Lección
 
-### Lección 1: ¿Qué es programar? Tu primer programa en Java (5:12)
+### Lección 1: ¿Qué es programar? Tu primer programa en Java (5:01)
 
 - **Descripción**: Descubre qué es programar, para qué se usa Java y ejecuta tu primer programa sin instalar nada.
-- **Enlace**: [Ver la lección](https://youtu.be/rE5g7Wa5n2g)
+- **Enlace**: [Ver la lección](https://youtu.be/ResejKvrKz4)
 - **Conclusiones clave**: Un programa es una lista de instrucciones precisas; Java empieza en `main`; `System.out.println("Hola");` muestra texto.
 - **Empieza a programar**: [Abrir en OnlineGDB](https://onlinegdb.com/KjeUyRkYG_) 👈 **¡No necesitas registrarte!**
 - **Código**: [inicial](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/starter-files/lesson-01) · [solución](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/completed-examples/lesson-01)
 
-### Lección 2: Variables y tipos de datos (5:12)
+### Lección 2: Variables y tipos de datos (6:32)
 
 - **Descripción**: Guarda los datos de tu personaje (nombre, nivel, energía) en variables.
-- **Enlace**: [Ver la lección](https://youtu.be/rfPQFgnpz-Q)
+- **Enlace**: [Ver la lección](https://youtu.be/CGj7Ubmo2VE)
 - **Conclusiones clave**: `String nombre = "PixelNova";` `int nivel = 1;` `double energia = 75.5;` `boolean tieneEscudo = false;`
 - **Práctica**: [Abrir en OnlineGDB](https://onlinegdb.com/ddxkrJwE1) 👈 **¡No necesitas registrarte!**
 - **Código**: [inicial](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/starter-files/lesson-02) · [solución](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/completed-examples/lesson-02)
 
-### Lección 3: Operadores y entrada de datos con Scanner (5:12)
+### Lección 3: Operadores y entrada de datos con Scanner (6:45)
 
 - **Descripción**: Haz que el programa te pregunte cosas y calcule monedas, pociones y bonus.
-- **Enlace**: [Ver la lección](https://youtu.be/LIqTo2oa_nM)
+- **Enlace**: [Ver la lección](https://youtu.be/DBe88mGnbuc)
 - **Conclusiones clave**: `Scanner teclado = new Scanner(System.in);` `25 / 7 = 3` y `25 % 7 = 4`; `total += 5;`
 - **Práctica**: [Abrir en OnlineGDB](https://onlinegdb.com/F-0DxmxNE) 👈 **¡No necesitas registrarte!**
 - **Código**: [inicial](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/starter-files/lesson-03) · [solución](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/completed-examples/lesson-03)
 
-### Lección 4: Tomar decisiones con if, else if y else (5:23)
+### Lección 4: Tomar decisiones con if, else if y else (7:04)
 
 - **Descripción**: Decide qué medalla gana el jugador y desbloquea un nivel secreto.
-- **Enlace**: [Ver la lección](https://youtu.be/jwEjyrGpZ7w)
+- **Enlace**: [Ver la lección](https://youtu.be/DmSyq3yl6hw)
 - **Conclusiones clave**: `if (puntos >= 100) {...} else if (puntos >= 50) {...} else {...}`; `&&` significa «y».
 - **Práctica**: [Abrir en OnlineGDB](https://onlinegdb.com/sXk2C4Fv7) 👈 **¡No necesitas registrarte!**
 - **Código**: [inicial](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/starter-files/lesson-04) · [solución](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/completed-examples/lesson-04)
