@@ -56,7 +56,7 @@ Este curso, de una hora aproximadamente, está pensado para estudiantes de secun
 ### Lección 5: Repetir con bucles for y while (5:06)
 
 - **Descripción**: Bucles para hacer cuentas regresivas, rondas de juego y recolección de monedas sin repetir código.
-- **Enlace**: [Ver la lección](https://youtu.be/BYDImQMPa0w)
+- **Enlace**: [Ver la lección](https://youtu.be/XyUVXfcWVIA)
 - **Conclusiones clave**: `for (int i = 1; i <= 5; i++) {...}` cuando sabes cuántas veces; `while (monedas < 100) {...}` cuando no.
 - **Práctica**: [Abrir en OnlineGDB](https://onlinegdb.com/3QTQlzSoS)
 - **Código**: [inicial](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/starter-files/lesson-05) · [solución](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/completed-examples/lesson-05)
@@ -64,7 +64,7 @@ Este curso, de una hora aproximadamente, está pensado para estudiantes de secun
 ### Lección 6: Métodos y parámetros (5:03)
 
 - **Descripción**: Cómo agrupar código en métodos para reutilizarlo en saludos, puntajes y barras de energía.
-- **Enlace**: [Ver la lección](https://youtu.be/R59n0P84xPM)
+- **Enlace**: [Ver la lección](https://youtu.be/6YaW3hfgzCE)
 - **Conclusiones clave**: `static int calcularPuntaje(int monedas, int enemigos) { return ...; }`; `void` no devuelve nada.
 - **Práctica**: [Abrir en OnlineGDB](https://onlinegdb.com/9Z0NF16VG)
 - **Código**: [inicial](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/starter-files/lesson-06) · [solución](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech/tree/main/completed-examples/lesson-06)
