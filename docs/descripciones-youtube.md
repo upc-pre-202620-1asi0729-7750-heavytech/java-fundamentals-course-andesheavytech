@@ -19,7 +19,7 @@ https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-cour
 [mm:ss] Pausa de práctica
 [mm:ss] Repaso
 
-📋 Lista completa del curso: https://www.youtube.com/playlist?list=PLaT5Dr0L6wqc
+📋 Lista completa del curso: https://www.youtube.com/playlist?list=PLXpWR-78-fDA
 ```
 
 ## Configuración al subir

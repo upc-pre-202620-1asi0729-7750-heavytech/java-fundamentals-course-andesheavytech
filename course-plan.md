@@ -9,7 +9,7 @@ Este curso, de una hora aproximadamente, está pensado para estudiantes de secun
 **Prerrequisitos**: Ninguno  
 **Herramientas necesarias**: Un navegador web (Chrome, Firefox, Safari o Edge) y el editor gratuito [OnlineGDB](https://www.onlinegdb.com/online_java_compiler), que no pide crear una cuenta  
 **Repositorio de Código Fuente**: [https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech](https://github.com/upc-pre-202620-1asi0729-7750-heavytech/java-fundamentals-course-andesheavytech)  
-**Lista de reproducción**: [Las 10 lecciones en YouTube](https://www.youtube.com/playlist?list=PLaT5Dr0L6wqc)
+**Lista de reproducción**: [Las 10 lecciones en YouTube](https://www.youtube.com/playlist?list=PLXpWR-78-fDA)
 
 ### ¿Cómo funciona cada lección?
 
