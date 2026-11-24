@@ -61,7 +61,7 @@ Cada archivo contiene todas sus clases, así cada práctica cabe en un solo edit
 
 ## Comprobar el código
 
-Con Java 17 o superior instalado:
+Con JDK 27 instalado:
 
 ```bash
 bash tools/check-examples.sh

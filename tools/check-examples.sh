@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Compila todos los ejemplos y los ejecuta con entradas de prueba.
-# Uso: bash tools/check-examples.sh   (requiere Java 17 o superior)
+# Uso: bash tools/check-examples.sh   (requiere JDK 27)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
